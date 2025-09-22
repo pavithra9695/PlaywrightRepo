@@ -1,0 +1,46 @@
+
+
+function launchbrowser(browsername)
+{
+    if (browsername == "chrome")
+        {
+      console.log("The browser is chrome")
+       }
+
+else if(browsername == "firefox")
+{
+    console.log("The browser is firefox")
+
+}
+else
+    {
+    console.log("other than chrome")
+    }
+}
+function runtests(testtype)
+
+{
+    switch (testtype)
+   {
+    case 'smokeTetsing':
+    console.log("Smoke")
+    break;
+    case "sanity":
+    console.log("sanity")
+    break;
+    case 'regression':
+    console.log("regression")
+    break;
+    default:
+    console.log("Smoke")
+    break;
+
+    }
+}
+
+launchbrowser ("chrome");
+launchbrowser ("firefox");
+runtests("Smoke");
+
+
+    
